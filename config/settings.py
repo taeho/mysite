@@ -29,8 +29,10 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# 현재 장고 프로젝트에 설치된 앱
+# 테이블 생성을 하려면 config/settings.py 파일에서 INSTALLED_APPS 항목에 pybo 앱을 추가
 INSTALLED_APPS = [
+    'pybo.apps.PyboConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -72,7 +74,8 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
+# BASE_DIR은 프로젝트 디렉터리를 의미하며, 현재 우리의 BASE_DIR은 C:/projects/mysite
+# 데이터베이스를 여러 개 사용할 때 default에 지정한 데이터베이스 외에 추가로 등록해 사용
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',

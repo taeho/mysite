@@ -24,6 +24,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
 # ---------------------------------- [edit] ---------------------------------- #
+    #  pybo/로 시작되는 페이지 요청은 모두 pybo/urls.py 파일에 있는 URL 매핑을 참고하여 처리
     path('pybo/', include('pybo.urls')),
 # ---------------------------------------------------------------------------- #
 ]
