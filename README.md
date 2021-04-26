@@ -1,10 +1,10 @@
 # mysite
 
-# 2021-04-01 파이썬 장고 
+#  파이썬 장고 시작 2021-04-01
   - https://wikidocs.net/72377
   - 개발서버 구동하기 :    (mysite) C:\projects\mysite>   python manage.py runserver
 
-# 2021-04-02 장고 기본 앱 생성 
+# 장고 기본 앱 생성  2021-04-02 
   - django-admin의 startapp 명령을 이용하여 pybo 앱을 생성
   > (mysite) C:\projects\mysite>django-admin startapp pybo
 
@@ -20,6 +20,7 @@ Password (again):
 Bypass password validation and create user anyway? [y/N]: y
 Superuser created successfully.
    
- - 장고 Admin에 접속해 로그인하기
- ; 장고 개발 서버를 구동한 후 localhost:8000/admin
+# 장고 Admin에 접속해 로그인하기
+ ; 장고 개발 서버를 구동한 후 
+  - localhost:8000/admin
    
