@@ -23,4 +23,15 @@ Superuser created successfully.
 # 장고 Admin에 접속해 로그인하기
  ; 장고 개발 서버를 구동한 후 
   - localhost:8000/admin
+
+# makemigrations로 테이블 작업 파일 생성하기
+테이블 작업 파일을 만들려면 makemigrations 명령을 실행해야 하기 때문이다. makemigrations 명령을 먼저 실행
+[명령 프롬프트]
+
+(mysite) c:\projects\mysite>python manage.py makemigrations
    
+# migrate로 테이블 생성하기
+테이블을 생성을 위해 migrate 명령을 실행하자.
+[명령 프롬프트]
+(mysite) C:\projects\mysite>python manage.py migrate
+
